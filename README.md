@@ -20,9 +20,7 @@
 
   <section class="proyectos">
     <h2>Proyectos destacados</h2>
-    <ul>
-      
-    </ul>
+   
   </section>
 
   <section class="certificado">
