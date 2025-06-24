@@ -1,50 +1,124 @@
+/* Estilos básicos */
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #111;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* Cabecera */
+header {
+  text-align: center;
+  background-image: url('assets/tardis.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  color: #f1c40f; /* Color futurista */
+}
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Fran Sánchez - Desarrollador Web</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Fran Sánchez</h1>
-    <p>Desarrollador web en formación - Frontend</p>
-  </header>
+.header-content h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
 
-  <section>
-    <h2>Proyectos destacados</h2>
-    <ul>
-      <li><a href="https://github.com/fransanchez/mi-proyecto-html" target="_blank">Página HTML básica</a></li>
-      <li><a href="https://github.com/fransanchez/maquetacion-css" target="_blank">Maquetación con CSS</a></li>
-      <!-- Aquí pondrás enlaces a tus futuros ejercicios con PHP, JS, etc. -->
-    </ul>
-  </section>
+header p {
+  font-size: 1.5em;
+  color: #ecf0f1;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
 
-  <section>
-    <h2>Sobre mí</h2>
-    <p>Estoy cursando un certificado en desarrollo frontend con HTML, CSS y JavaScript, y ampliando mis conocimientos en backend.</p>
-  </section>
+/* Sección de Sobre mí */
+.sobre-mi {
+  padding: 40px;
+  text-align: center;
+  background-color: #333;
+}
 
-  <footer>
-    <p>Contacto: <a href="https://www.linkedin.com/in/francisco-javier-sanchez-sanchez-930883229/">LinkedIn</a></p>
-  </footer>
-</body>
-</html>
+.sobre-mi h2 {
+  font-size: 2.5em;
+  color: #f1c40f;
+}
 
+.sobre-mi p {
+  font-size: 1.2em;
+  color: #ecf0f1;
+}
 
-<!--
-**SoulRockr/SoulRockr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+/* Proyectos */
+.proyectos {
+  background-color: #2c3e50;
+  padding: 40px;
+  text-align: center;
+}
 
-Here are some ideas to get you started:
+.proyectos h2 {
+  font-size: 2.5em;
+  color: #f1c40f;
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+.proyectos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.proyectos ul li {
+  margin: 15px 0;
+}
+
+.proyectos a {
+  color: #ecf0f1;
+  font-size: 1.1em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.proyectos a:hover {
+  color: #f39c12;
+}
+
+/* Sección de certificado */
+.certificado {
+  background-color: #34495e;
+  padding: 40px;
+  text-align: center;
+}
+
+.certificado h2 {
+  font-size: 2.5em;
+  color: #f1c40f;
+}
+
+.certificado p {
+  font-size: 1.2em;
+  color: #ecf0f1;
+}
+
+.certificado a {
+  color: #ecf0f1;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.certificado a:hover {
+  color: #f39c12;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2c3e50;
+}
+
+footer a {
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #f39c12;
+}
