@@ -16,15 +16,13 @@
 
   <section class="sobre-mi">
     <h2>Sobre mí</h2>
-    <p>¡Hola! Soy Fran, un apasionado del desarrollo web. Actualmente estoy aprendiendo **Frontend** con HTML, CSS y JavaScript, y planeo seguir ampliando mis conocimientos hacia el **Backend**. Mi gran inspiración proviene de series como **Doctor Who** y **Futurama**, ¡y trato de aplicar su estilo único a mi trabajo!</p>
+    <p>¡Hola! Soy Fran, un apasionado del desarrollo web. Actualmente estoy aprendiendo **Frontend** con HTML, CSS y JavaScript, y planeo seguir ampliando mis conocimientos hacia el **Backend**. , ¡y trato de aplicar su estilo único a mi trabajo!</p>
   </section>
 
   <section class="proyectos">
     <h2>Proyectos destacados</h2>
     <ul>
-      <li><a href="https://github.com/fransanchez/mi-proyecto-html" target="_blank">Página HTML básica</a></li>
-      <li><a href="https://github.com/fransanchez/maquetacion-css" target="_blank">Maquetación con CSS</a></li>
-      <!-- Agrega tus nuevos proyectos conforme los termines -->
+      
     </ul>
   </section>
 
