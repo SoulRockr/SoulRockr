@@ -1,124 +1,41 @@
-/* Estilos básicos */
-body {
-  font-family: 'Roboto Mono', monospace;
-  background-color: #111;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fran Sánchez - Desarrollador Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Fran Sánchez</h1>
+      <p>Desarrollador web | Frontend en formación</p>
+    </div>
+  </header>
 
-/* Cabecera */
-header {
-  text-align: center;
-  background-image: url('assets/tardis.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 50px;
-  color: #f1c40f; /* Color futurista */
-}
+  <section class="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>¡Hola! Soy Fran, un apasionado del desarrollo web. Actualmente estoy aprendiendo **Frontend** con HTML, CSS y JavaScript, y planeo seguir ampliando mis conocimientos hacia el **Backend**. Mi gran inspiración proviene de series como **Doctor Who** y **Futurama**, ¡y trato de aplicar su estilo único a mi trabajo!</p>
+  </section>
 
-.header-content h1 {
-  font-size: 3em;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
+  <section class="proyectos">
+    <h2>Proyectos destacados</h2>
+    <ul>
+      <li><a href="https://github.com/fransanchez/mi-proyecto-html" target="_blank">Página HTML básica</a></li>
+      <li><a href="https://github.com/fransanchez/maquetacion-css" target="_blank">Maquetación con CSS</a></li>
+      <!-- Agrega tus nuevos proyectos conforme los termines -->
+    </ul>
+  </section>
 
-header p {
-  font-size: 1.5em;
-  color: #ecf0f1;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-}
+  <section class="certificado">
+    <h2>Certificados</h2>
+    <p>He completado con éxito el certificado de Nivel 3 en **Frontend** y sigo avanzando en mi formación como desarrollador web.</p>
+    <a href="https://www.linkedin.com/in/francisco-javier-sanchez-sanchez-930883229/" target="_blank">Ver mi perfil de LinkedIn</a>
+  </section>
 
-/* Sección de Sobre mí */
-.sobre-mi {
-  padding: 40px;
-  text-align: center;
-  background-color: #333;
-}
-
-.sobre-mi h2 {
-  font-size: 2.5em;
-  color: #f1c40f;
-}
-
-.sobre-mi p {
-  font-size: 1.2em;
-  color: #ecf0f1;
-}
-
-/* Proyectos */
-.proyectos {
-  background-color: #2c3e50;
-  padding: 40px;
-  text-align: center;
-}
-
-.proyectos h2 {
-  font-size: 2.5em;
-  color: #f1c40f;
-}
-
-.proyectos ul {
-  list-style: none;
-  padding: 0;
-}
-
-.proyectos ul li {
-  margin: 15px 0;
-}
-
-.proyectos a {
-  color: #ecf0f1;
-  font-size: 1.1em;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.proyectos a:hover {
-  color: #f39c12;
-}
-
-/* Sección de certificado */
-.certificado {
-  background-color: #34495e;
-  padding: 40px;
-  text-align: center;
-}
-
-.certificado h2 {
-  font-size: 2.5em;
-  color: #f1c40f;
-}
-
-.certificado p {
-  font-size: 1.2em;
-  color: #ecf0f1;
-}
-
-.certificado a {
-  color: #ecf0f1;
-  font-size: 1.2em;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.certificado a:hover {
-  color: #f39c12;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #2c3e50;
-}
-
-footer a {
-  color: #ecf0f1;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-footer a:hover {
-  color: #f39c12;
-}
+  <footer>
+    <p>Contacto: <a href="https://www.linkedin.com/in/francisco-javier-sanchez-sanchez-930883229/" target="_blank">LinkedIn</a></p>
+  </footer>
+</body>
+</html>
